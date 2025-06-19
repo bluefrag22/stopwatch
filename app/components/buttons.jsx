@@ -1,9 +1,10 @@
+"use client"
 
 
-const audio = new Audio("/single-mouse-button-click-351381.mp3")
 
 
 export default function Buttons({ isToggled, setIsToggled, handleToggle,reset,resetpress }) {
+  const audio = new Audio("/single-mouse-button-click-351381.mp3")
   return (
     <div className="flex justify-between items-end flex-1 h-6/12 p-4 pb-10">
         
