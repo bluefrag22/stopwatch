@@ -1,5 +1,4 @@
 
-
 // app/page.js
 
 export async function getApiKey(city) {
